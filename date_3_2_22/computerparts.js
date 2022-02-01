@@ -71,7 +71,9 @@ btn.addEventListener('click', (e) => {
         tempdata[5] = tempdata[4] - 2000 * data[2];
     }
     // console.log(tempdata);
+     if (sold != 0 && currentDate < today ) {
     dataedit();
+    }
 })
 function dataedit() {
     var table = document.getElementById("crtable");
